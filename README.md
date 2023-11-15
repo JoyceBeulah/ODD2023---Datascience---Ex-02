@@ -44,11 +44,13 @@ af
 ```
 sns.boxplot(data=af)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/86757d54-2800-4145-83be-8469fc6409d7)
+<img width="184" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/3493ba78-046c-488a-89fc-68fee1997c34">
+
 ```
 sns.scatterplot(data=af)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/731221cf-84e2-4965-b847-4957c262b369)
+<img width="180" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/4cffc6de-f7d7-41b5-b2ea-6f6d191428e7">
+
 ```
 q1=af.quantile(0.25)
 q2=af.quantile(0.5)
@@ -73,7 +75,8 @@ aq.dropna()
 ```
 sns.boxplot(data=af)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/dae83b78-aaee-4a88-862c-6a1daf2e00b8)
+<img width="183" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/60b434cd-21dc-4a17-ab22-313fc376c3eb">
+
 ```
 af=af[((af>=low)&(af<=high))]
 af.dropna()
@@ -82,11 +85,13 @@ af.dropna()
 ```
 sns.boxplot(data=af)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/26452a5d-e3e0-4e84-b96d-f9c689db7da7)
+<img width="185" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/cabc2255-7578-4db9-b744-e297b97db0e6">
+
 ```
 sns.scatterplot(data=af)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/afcfc1b9-121e-4602-8a2f-b8ba1b49ac3b)
+<img width="192" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/fdda740b-a6d9-4ef7-a6c1-aba3b90f7d32">
+
 ```
 import pandas as pd
 import numpy as np
@@ -100,7 +105,8 @@ df
 ```
 sns.boxplot(data=df)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/8c0ea42e-7c4f-47e0-9564-5b7cd6c29dae)
+<img width="195" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/550e8b67-a4b3-42f2-8598-d317e25e9fbb">
+
 ```
 z=np.abs(stats.zscore(df))
 print(df[z['weight']>3])
@@ -134,7 +140,8 @@ id.head()
 ```
 sns.boxplot(x='sepal_width',data=id)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/722ac426-969f-4ec4-a6a1-8c8079353268)
+<img width="174" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/20fe4807-e5a2-4c18-9b8c-de7512400271">
+
 ```
 c1=id.sepal_width.quantile(0.25)
 c3=id.sepal_width.quantile(0.75)
@@ -155,7 +162,8 @@ delid
 ```
 sns.boxplot(x='sepal_width',data=delid)
 ```
-![image](https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/acc0a270-82ca-44f8-8a92-efdd79fa6a17)
+<img width="183" alt="image" src="https://github.com/JoyceBeulah/ODD2023---Datascience---Ex-02/assets/118343698/cc194e48-51e4-4c2e-8c7e-f4ac1e15df5e">
+
 
 ## REAULT
 Thus the outliers are detected and removed in the given file and the final data set is saved into the file.
